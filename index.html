@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Portfolio — Solutions Architect & UI/UX Designer</title>
+<title>Mel Catuiran — Solutions Architect & UI/UX Designer</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,900;1,400;1,700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -837,7 +837,7 @@ footer {
 
 <!-- Navigation -->
 <nav id="navbar">
-  <a href="#" class="nav-logo">M<span>.</span>Portfolio</a>
+  <a href="#" class="nav-logo">Mel Catuiran</a>
   <ul class="nav-links">
     <li><a href="#about">About</a></li>
     <li><a href="#portfolio">Work</a></li>
@@ -951,8 +951,10 @@ footer {
   <!-- Filter: PDF and Presentation only -->
   <div class="filter-bar reveal">
     <button class="filter-pill active" onclick="filterCards('all', this)">All Work</button>
-    <button class="filter-pill" onclick="filterCards('pdf', this)">PDF</button>
-    <button class="filter-pill" onclick="filterCards('pptx', this)">Presentation</button>
+    <button class="filter-pill" onclick="filterCards('pdf', this)">Web</button>
+    <button class="filter-pill" onclick="filterCards('pdf', this)">Mobile</button>
+    <button class="filter-pill" onclick="filterCards('pdf', this)">Automation</button>
+    <button class="filter-pill" onclick="filterCards('pptx', this)">System</button>
   </div>
 
   <!--
@@ -984,14 +986,7 @@ footer {
     <!-- CARD 1 — Web Design Screenshot -->
     <div class="port-card reveal" data-type="screenshot" data-title="Project Title 01" data-desc="Web Design · 2024">
       <div class="card-thumb">
-        <!-- REPLACE: swap this div with <img src="your-screenshot.png" alt="Project Title 01"> -->
-        <div class="card-ph">
-          <div class="card-ph-icon">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="14" rx="2"/><path d="M3 9h18"/><circle cx="7" cy="6" r="1"/><circle cx="10" cy="6" r="1"/></svg>
-          </div>
-          <div class="card-ph-label">Web Screenshot</div>
-          <div class="card-ph-hint">Replace with your image</div>
-        </div>
+      <img src="assets/rate.png" alt="ratecard">
         <span class="card-type-badge">Web</span>
         <div class="card-overlay"><span class="overlay-tag">View</span></div>
       </div>
@@ -1025,13 +1020,7 @@ footer {
     <div class="port-card reveal" data-type="pdf" data-title="Case Study — Project 03" data-desc="PDF · Case Study" data-file="your-casestudy.pdf">
       <div class="card-thumb">
         <!-- REPLACE: swap this div with a thumbnail image, or leave for the default PDF icon -->
-        <div class="card-ph" style="background:#FBF5EC;border-color:#E8D5B0;">
-          <div class="card-ph-icon" style="border-color:#C8963E;color:#C8963E;">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
-          </div>
-          <div class="card-ph-label" style="color:#C8963E;">PDF Document</div>
-          <div class="card-ph-hint">Set data-file="your-file.pdf"</div>
-        </div>
+<img src="assets/rate.png" alt="ratecard">
         <span class="card-type-badge pdf">PDF</span>
         <div class="card-overlay"><span class="overlay-tag">Open</span></div>
       </div>
@@ -1042,16 +1031,10 @@ footer {
     </div>
 
     <!-- CARD 4 — PowerPoint Presentation -->
-    <div class="port-card reveal" data-type="pptx" data-title="Presentation — Project 04" data-desc="PPTX · Deck" data-file="your-presentation.pptx">
+    <div class="port-card reveal" data-type="pptx" data-title="Presentation — Project 04" data-desc="PPTX · Deck" data-file="Events.pptx">
       <div class="card-thumb">
         <!-- REPLACE: swap this div with a slide thumbnail image -->
-        <div class="card-ph" style="background:#FDF0EF;border-color:#E8BFBB;">
-          <div class="card-ph-icon" style="border-color:#C0392B;color:#C0392B;">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
-          </div>
-          <div class="card-ph-label" style="color:#C0392B;">Presentation</div>
-          <div class="card-ph-hint">Set data-file="your-file.pptx"</div>
-        </div>
+<img src="assets/event.png" alt="ratecard">
         <span class="card-type-badge pptx">PPT</span>
         <div class="card-overlay"><span class="overlay-tag">Open</span></div>
       </div>
@@ -1064,18 +1047,12 @@ footer {
     <!-- CARD 5 — Web Design Screenshot -->
     <div class="port-card reveal" data-type="screenshot" data-title="Project Title 05" data-desc="Web Design · 2023">
       <div class="card-thumb">
-        <div class="card-ph">
-          <div class="card-ph-icon">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="14" rx="2"/><path d="M3 9h18"/><circle cx="7" cy="6" r="1"/></svg>
-          </div>
-          <div class="card-ph-label">Web Screenshot</div>
-          <div class="card-ph-hint">Replace with your image</div>
-        </div>
+<img src="assets/brandculture.jpg" alt="ratecard">
         <span class="card-type-badge">Web</span>
         <div class="card-overlay"><span class="overlay-tag">View</span></div>
       </div>
       <div class="card-body">
-        <div class="card-title">Project Title 05</div>
+        <div class="card-title">Brand Culture</div>
         <div class="card-meta"><span>2023</span><span class="card-meta-dot"></span><span>Web Design</span></div>
       </div>
     </div>
@@ -1083,19 +1060,26 @@ footer {
     <!-- CARD 6 — PDF Document -->
     <div class="port-card reveal" data-type="pdf" data-title="Case Study — Project 06" data-desc="PDF · Proposal" data-file="your-proposal.pdf">
       <div class="card-thumb">
-        <div class="card-ph" style="background:#FBF5EC;border-color:#E8D5B0;">
-          <div class="card-ph-icon" style="border-color:#C8963E;color:#C8963E;">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
-          </div>
-          <div class="card-ph-label" style="color:#C8963E;">PDF Document</div>
-          <div class="card-ph-hint">Set data-file="your-file.pdf"</div>
-        </div>
-        <span class="card-type-badge pdf">PDF</span>
+      <img src="assets/rate.png" alt="ratecard">
+        <span class="card-type-badge pdf">Custom Build System</span>
         <div class="card-overlay"><span class="overlay-tag">Open</span></div>
       </div>
       <div class="card-body">
-        <div class="card-title">Case Study — Project 06</div>
-        <div class="card-meta"><span>2022</span><span class="card-meta-dot"></span><span>PDF · Proposal</span></div>
+        <div class="card-title">Rate Card</div>
+        <div class="card-meta"><span>2026</span><span class="card-meta-dot"></span><span>Custom Build System</span></div>
+      </div>
+    </div>
+
+        <!-- CARD 6 — PDF Document -->
+    <div class="port-card reveal" data-type="pdf" data-title="Case Study — Project 06" data-desc="PDF · Proposal" data-file="your-proposal.pdf">
+      <div class="card-thumb">
+      <img src="assets/event.png" alt="ratecard">
+        <span class="card-type-badge pdf">Custom Build System</span>
+        <div class="card-overlay"><span class="overlay-tag">Open</span></div>
+      </div>
+      <div class="card-body">
+        <div class="card-title">Events Management</div>
+        <div class="card-meta"><span>2026</span><span class="card-meta-dot"></span><span>Custom Build System</span></div>
       </div>
     </div>
 
@@ -1152,19 +1136,13 @@ footer {
     <p class="contact-tagline reveal">
       Open to project collaborations, architecture consulting, and design partnerships. Based in Manila — available globally.
     </p>
-    <a href="mailto:hello@yourportfolio.com" class="contact-email-big reveal">hello@yourportfolio.com</a>
-    <div class="contact-links reveal">
-      <a href="#" class="contact-link">LinkedIn</a>
-      <a href="#" class="contact-link">Dribbble</a>
-      <a href="#" class="contact-link">Behance</a>
-      <a href="#" class="contact-link">GitHub</a>
-    </div>
+    <a href="mailto:mg.catuiran@gmail.com" class="contact-email-big reveal">mg.catuiran@gmail.com</a>
   </div>
 </section>
 
 <!-- Footer -->
 <footer>
-  <div class="footer-logo">M<span>.</span>Portfolio</div>
+  <div class="footer-logo">Mel Catuiran</div>
   <div class="footer-copy">© 2026 — All rights reserved</div>
   <div class="footer-manila">Manila, Philippines</div>
 </footer>
