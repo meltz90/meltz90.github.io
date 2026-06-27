@@ -949,13 +949,13 @@ footer {
   </div>
 
   <!-- Filter: PDF and Presentation only -->
-  <!-- <div class="filter-bar reveal">
+  <div class="filter-bar reveal">
     <button class="filter-pill active" onclick="filterCards('all', this)">All Work</button>
     <button class="filter-pill" onclick="filterCards('pdf', this)">Web</button>
-    <button class="filter-pill" onclick="filterCards('pdf', this)">Mobile</button>
-    <button class="filter-pill" onclick="filterCards('pdf', this)">Automation</button>
+    <button class="filter-pill" onclick="filterCards('mobile', this)">Mobile</button>
+    <button class="filter-pill" onclick="filterCards('screenshot', this)">Automation</button>
     <button class="filter-pill" onclick="filterCards('pptx', this)">System</button>
-  </div> -->
+  </div>
 
   <!--
     PORTFOLIO GRID
@@ -983,23 +983,20 @@ footer {
 
   <div class="portfolio-grid" id="portfolio-grid">
 
-    <!-- CARD 1 — Web Design Screenshot -->
-    <div class="port-card reveal" data-type="screenshot" data-title="Project Title 01" data-desc="Web Design · 2024">
+    <div class="port-card reveal" data-type="pptx" data-title="Promodiser Time Keeping" data-desc="Custom Build System" data-file="https://drive.google.com/file/d/11sRrGNFHdIPljvPV7yEYzt4EnF8UH4NY/view?usp=drive_link">
       <div class="card-thumb">
-      <img src="assets/rate.png" alt="ratecard">
-        <span class="card-type-badge">Web</span>
+      <img src="assets/ipro.png" alt="ratecard">
+        <span class="card-type-badge">Custom Build System</span>
         <div class="card-overlay"><span class="overlay-tag">View</span></div>
       </div>
       <div class="card-body">
-        <div class="card-title">Project Title 01</div>
-        <div class="card-meta"><span>2024</span><span class="card-meta-dot"></span><span>Web Design</span></div>
+        <div class="card-title">Promodiser Time Keeping</div>
+        <div class="card-meta"><span>2024</span><span class="card-meta-dot"></span><span>Custom Build System</span></div>
       </div>
     </div>
 
-    <!-- CARD 2 — Mobile Design Screenshot -->
-    <div class="port-card reveal" data-type="screenshot" data-title="Mwell Black Theme" data-desc="Mobile Design · 2024">
+    <div class="port-card reveal" data-type="mobile" data-title="Mwell Black Theme" data-desc="Mobile Design · 2024">
       <div class="card-thumb">
-        <!-- REPLACE: swap this div with <img src="your-screenshot.png" alt="Project Title 02"> -->
         <img src="assets/mobile.png" alt="ratecard">
         <span class="card-type-badge">Mobile</span>
         <div class="card-overlay"><span class="overlay-tag">View</span></div>
@@ -1010,36 +1007,31 @@ footer {
       </div>
     </div>
 
-    <!-- CARD 3 — PDF Document -->
-    <div class="port-card reveal" data-type="pdf" data-title="Case Study — Project 03" data-desc="PDF · Case Study" data-file="your-casestudy.pdf">
+    <div class="port-card reveal" data-type="screenshot" data-title="HR Notification" data-desc="n8n Automation" data-file="your-casestudy.pdf">
       <div class="card-thumb">
-        <!-- REPLACE: swap this div with a thumbnail image, or leave for the default PDF icon -->
-        <img src="assets/rate.png" alt="ratecard">
-        <span class="card-type-badge pdf">PDF</span>
+        <img src="assets/hr.png" alt="ratecard">
+        <span class="card-type-badge pdf">n8n</span>
         <div class="card-overlay"><span class="overlay-tag">Open</span></div>
       </div>
       <div class="card-body">
-        <div class="card-title">Case Study — Project 03</div>
-        <div class="card-meta"><span>2023</span><span class="card-meta-dot"></span><span>PDF · Case Study</span></div>
+        <div class="card-title">HR Notification</div>
+        <div class="card-meta"><span>2026</span><span class="card-meta-dot"></span><span>n8n Automation</span></div>
       </div>
     </div>
 
-    <!-- CARD 4 — PowerPoint Presentation -->
-    <div class="port-card reveal" data-type="pptx" data-title="Presentation — Project 04" data-desc="PPTX · Deck" data-file="Events.pptx">
+    <div class="port-card reveal" data-type="mobile" data-title="Career.Com " data-desc="Mobile Design · 2023">
       <div class="card-thumb">
-        <!-- REPLACE: swap this div with a slide thumbnail image -->
-        <img src="assets/event.png" alt="ratecard">
-        <span class="card-type-badge pptx">PPT</span>
-        <div class="card-overlay"><span class="overlay-tag">Open</span></div>
+        <img src="assets/careerapp.png" alt="ratecard">
+        <span class="card-type-badge">Mobile</span>
+        <div class="card-overlay"><span class="overlay-tag">View</span></div>
       </div>
       <div class="card-body">
-        <div class="card-title">Presentation — Project 04</div>
-        <div class="card-meta"><span>2023</span><span class="card-meta-dot"></span><span>Presentation</span></div>
+        <div class="card-title">Career.Com</div>
+        <div class="card-meta"><span>2020</span><span class="card-meta-dot"></span><span>Mobile Design</span></div>
       </div>
     </div>
 
-    <!-- CARD 5 — Web Design Screenshot -->
-    <div class="port-card reveal" data-type="screenshot" data-title="Project Title 05" data-desc="Web Design · 2023">
+    <div class="port-card reveal" data-type="pdf" data-title="Brand Culture" data-desc="Web Design · 2023">
       <div class="card-thumb">
       <img src="assets/brandculture.jpg" alt="ratecard">
         <span class="card-type-badge">Web</span>
@@ -1047,14 +1039,12 @@ footer {
       </div>
       <div class="card-body">
         <div class="card-title">Brand Culture</div>
-        <div class="card-meta"><span>2023</span><span class="card-meta-dot"></span><span>Web Design</span></div>
+        <div class="card-meta"><span>2016</span><span class="card-meta-dot"></span><span>Web Design</span></div>
       </div>
     </div>
 
-    <!-- CARD 2 — Mobile Design Screenshot -->
-    <div class="port-card reveal" data-type="screenshot" data-title="Mwell " data-desc="Mobile Design · 2023">
+    <div class="port-card reveal" data-type="mobile" data-title="Mwell " data-desc="Mobile Design · 2023">
       <div class="card-thumb">
-        <!-- REPLACE: swap this div with <img src="your-screenshot.png" alt="Project Title 02"> -->
         <img src="assets/mwell1.png" alt="ratecard">
         <span class="card-type-badge">Mobile</span>
         <div class="card-overlay"><span class="overlay-tag">View</span></div>
@@ -1065,7 +1055,6 @@ footer {
       </div>
     </div>
 
-    <!-- CARD 6 — pptx Document -->
     <div class="port-card reveal" data-type="pptx" data-title="Rate Card Calculator" data-desc="Custom Build System" data-file="https://drive.google.com/file/d/1zpU6Q0CoLfEqsO3FGXWJgSe4uef99CwT/view?usp=sharing">
       <div class="card-thumb">
       <img src="assets/rate.png" alt="ratecard">
@@ -1078,8 +1067,19 @@ footer {
       </div>
     </div>
 
-        <!-- CARD 7 — PDF Document -->
-    <div class="port-card reveal" data-type="pptx" data-title="Case Study — Project 06" data-desc="PDF · Proposal" data-file="your-proposal.pdf">
+    <div class="port-card reveal" data-type="pdf" data-title="Visual Concepts" data-desc="Web Design · 2023">
+      <div class="card-thumb">
+      <img src="assets/visual.jpg" alt="ratecard">
+        <span class="card-type-badge">Web</span>
+        <div class="card-overlay"><span class="overlay-tag">View</span></div>
+      </div>
+      <div class="card-body">
+        <div class="card-title">Visual Concepts</div>
+        <div class="card-meta"><span>2017</span><span class="card-meta-dot"></span><span>Web Design</span></div>
+      </div>
+    </div>
+
+    <div class="port-card reveal" data-type="pptx" data-title="Events Management" data-desc="PDF · Proposal" data-file="your-proposal.pdf">
       <div class="card-thumb">
       <img src="assets/event.png" alt="ratecard">
         <span class="card-type-badge pdf">Custom Build System</span>
@@ -1088,6 +1088,30 @@ footer {
       <div class="card-body">
         <div class="card-title">Events Management</div>
         <div class="card-meta"><span>2026</span><span class="card-meta-dot"></span><span>Custom Build System</span></div>
+      </div>
+    </div>
+
+    <div class="port-card reveal" data-type="screenshot" data-title="Bench Management Automation" data-desc="n8n Automation" data-file="your-casestudy.pdf">
+      <div class="card-thumb">
+        <img src="assets/floating.png" alt="ratecard">
+        <span class="card-type-badge pdf">n8n</span>
+        <div class="card-overlay"><span class="overlay-tag">Open</span></div>
+      </div>
+      <div class="card-body">
+        <div class="card-title">Bench Management Automation</div>
+        <div class="card-meta"><span>2026</span><span class="card-meta-dot"></span><span>n8n Automation</span></div>
+      </div>
+    </div>
+
+    <div class="port-card reveal" data-type="pdf" data-title="NXT" data-desc="Web Design · 2023" data-file="https://drive.google.com/file/d/1dkZFB5r-NuvctTM2A-bgYQgqfgxhEwVC/view?usp=sharing">
+      <div class="card-thumb">
+      <img src="assets/nxt.png" alt="ratecard">
+        <span class="card-type-badge">Web</span>
+        <div class="card-overlay"><span class="overlay-tag">View</span></div>
+      </div>
+      <div class="card-body">
+        <div class="card-title">NXT</div>
+        <div class="card-meta"><span>2023</span><span class="card-meta-dot"></span><span>Web Design</span></div>
       </div>
     </div>
 
